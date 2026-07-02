@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRM под ваш бизнес — настройка и внедрение | @Kasattma</title>
+  <meta name="description" content="Настройка CRM-систем для бизнеса в сфере услуг. Порядок в продажах, больше клиентов, понятные отчёты. Консультация бесплатно.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#" class="logo">
+      <span class="logo__icon">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="8" fill="#2563EB"/><rect x="6" y="7" width="16" height="2.5" rx="1.25" fill="#fff"/><rect x="6" y="12.75" width="11" height="2.5" rx="1.25" fill="#fff"/><rect x="6" y="18.5" width="8" height="2.5" rx="1.25" fill="#fff"/><circle cx="21" cy="19.75" r="4" fill="#60A5FA"/><path d="M19.5 19.75l1 1 2-2" stroke="#1e3a8a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <span class="logo__text">CRM<span class="logo__suffix">эксперт</span></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#advantages">Преимущества</a>
+      <a href="#services">Услуги</a>
+      <a href="#process">Как работаем</a>
+      <a href="#cases">Кейсы</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a href="https://t.me/Kasattma" target="_blank" class="btn btn--header">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.93 6.77l-1.67 7.87c-.12.56-.46.7-.93.44l-2.57-1.89-1.24 1.19c-.14.14-.25.25-.51.25l.18-2.57 4.66-4.21c.2-.18-.04-.28-.31-.1L7.9 14.51l-2.5-.78c-.54-.17-.55-.54.12-.8l9.75-3.76c.45-.16.84.11.66.6z" fill="#2563EB"/></svg>
+      Написать
+    </a>
+    <button class="burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <div class="hero__badge">CRM для сферы услуг</div>
+      <h1 class="hero__title">Настроим CRM<br>так, чтобы клиенты<br><span class="accent">не терялись</span></h1>
+      <p class="hero__sub">Внедряем CRM-системы для бизнесов в сфере услуг: от аудита до запуска. Без хаоса в Excel и потерянных заявок.</p>
+      <div class="hero__cta">
+        <a href="#contacts" class="btn btn--primary">Получить консультацию</a>
+        <a href="#services" class="btn btn--outline">Смотреть услуги</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num" data-target="80">0</span><span class="stat__sym">+</span>
+          <span class="stat__label">проектов</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-target="3">0</span><span class="stat__sym">×</span>
+          <span class="stat__label">рост конверсии</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-target="5">0</span><span class="stat__sym"> лет</span>
+          <span class="stat__label">в нише CRM</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-target="2">0</span><span class="stat__sym"> дня</span>
+          <span class="stat__label">от созвона до запуска</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__card">
+      <div class="hero__card-label">Воронка продаж после CRM</div>
+      <div class="funnel">
+        <div class="funnel__row funnel__row--1">
+          <div class="funnel__bar">
+            <span class="funnel__icon">📥</span>
+            <span class="funnel__name">Новые заявки</span>
+          </div>
+          <span class="funnel__pct">100%</span>
+        </div>
+        <div class="funnel__row funnel__row--2">
+          <div class="funnel__bar">
+            <span class="funnel__icon">📞</span>
+            <span class="funnel__name">Квалификация</span>
+          </div>
+          <span class="funnel__pct">78%</span>
+        </div>
+        <div class="funnel__row funnel__row--3">
+          <div class="funnel__bar">
+            <span class="funnel__icon">🤝</span>
+            <span class="funnel__name">Переговоры</span>
+          </div>
+          <span class="funnel__pct">54%</span>
+        </div>
+        <div class="funnel__row funnel__row--4">
+          <div class="funnel__bar">
+            <span class="funnel__icon">✅</span>
+            <span class="funnel__name">Сделка закрыта</span>
+          </div>
+          <span class="funnel__pct">31%</span>
+        </div>
+        <div class="hero__card-tag">Ни одна заявка не потеряется</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- БОЛЬ -->
+<section class="pain section">
+  <div class="container">
+    <h2 class="section__title">Узнаёте себя?</h2>
+    <p class="section__sub">Типичные проблемы, из-за которых бизнес теряет деньги</p>
+    <div class="pain__grid">
+      <div class="pain__item">
+        <div class="pain__icon">😰</div>
+        <p>Заявки теряются — клиент написал, а менеджер «забыл» перезвонить</p>
+      </div>
+      <div class="pain__item">
+        <div class="pain__icon">📊</div>
+        <p>Непонятно сколько клиентов в работе и на каком этапе каждый</p>
+      </div>
+      <div class="pain__item">
+        <div class="pain__icon">🗂️</div>
+        <p>Всё хранится в Excel, мессенджерах, заметках — полный хаос</p>
+      </div>
+      <div class="pain__item">
+        <div class="pain__icon">🔄</div>
+        <p>Менеджер уволился и унёс с собой всю базу клиентов</p>
+      </div>
+      <div class="pain__item">
+        <div class="pain__icon">📉</div>
+        <p>Нет цифр — не знаете откуда приходят клиенты и что приносит прибыль</p>
+      </div>
+      <div class="pain__item">
+        <div class="pain__icon">⏱️</div>
+        <p>Рутина съедает время — ручные задачи, которые можно автоматизировать</p>
+      </div>
+    </div>
+    <div class="pain__cta">
+      <a href="#contacts" class="btn btn--primary">Решим это вместе</a>
+    </div>
+  </div>
+</section>
+
+<!-- ПРЕИМУЩЕСТВА -->
+<section class="advantages section" id="advantages">
+  <div class="container">
+    <h2 class="section__title">Почему выбирают меня</h2>
+    <p class="section__sub">Работаю только со сферой услуг — знаю вашу специфику изнутри</p>
+    <div class="adv__grid">
+      <div class="adv">
+        <div class="adv__icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#EFF6FF"/><path d="M10 16l4 4 8-8" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Под ваш бизнес</h3>
+        <p>Не шаблонная настройка — разбираем ваш кейс и строим систему под ваши процессы</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#EFF6FF"/><path d="M16 8v8l5 3" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Быстрый старт</h3>
+        <p>Первые результаты уже через 2-3 дня после начала работы — без месяцев внедрения</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#EFF6FF"/><path d="M12 20c0-2.21 1.79-4 4-4s4 1.79 4 4M16 12a2 2 0 100 4 2 2 0 000-4z" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Обучение команды</h3>
+        <p>Настроим и обучим сотрудников — чтобы они реально пользовались системой</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#EFF6FF"/><rect x="10" y="13" width="12" height="9" rx="2" stroke="#2563EB" stroke-width="2.5"/><path d="M13 13v-2a3 3 0 016 0v2" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Безопасность данных</h3>
+        <p>Настраиваем права доступа — каждый видит только то, что нужно для его работы</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#EFF6FF"/><path d="M10 22l6-12 6 12" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.5 18h7" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Интеграции</h3>
+        <p>Подключаем мессенджеры, телефонию, сайт, соцсети — все каналы в одном месте</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#EFF6FF"/><path d="M16 10v2M16 20v2M10 16h2M20 16h2" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="16" r="3" stroke="#2563EB" stroke-width="2.5"/></svg>
+        </div>
+        <h3>Поддержка после</h3>
+        <p>Остаюсь на связи после запуска — помогу докрутить и адаптироваться</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- УСЛУГИ -->
+<section class="services section" id="services">
+  <div class="container">
+    <h2 class="section__title">Что вы получаете</h2>
+    <p class="section__sub">Полный цикл — от аудита до работающей системы</p>
+    <div class="srv__grid">
+      <div class="srv">
+        <div class="srv__num">01</div>
+        <h3>Аудит процессов</h3>
+        <p>Разберём как работаете сейчас, где теряются клиенты и деньги. Составим карту процессов.</p>
+        <div class="srv__price">от 5 000 ₽</div>
+      </div>
+      <div class="srv">
+        <div class="srv__num">02</div>
+        <h3>Выбор CRM</h3>
+        <p>Подберём платформу под ваш бизнес и бюджет: amoCRM, Bitrix24, Planfix и другие.</p>
+        <div class="srv__price">включено</div>
+      </div>
+      <div class="srv">
+        <div class="srv__num">03</div>
+        <h3>Настройка воронки</h3>
+        <p>Создадим этапы сделок, поля, теги — систему, которая отражает ваши реальные продажи.</p>
+        <div class="srv__price">от 15 000 ₽</div>
+      </div>
+      <div class="srv">
+        <div class="srv__num">04</div>
+        <h3>Автоматизация</h3>
+        <p>Автозадачи, напоминания, шаблоны сообщений — рутина работает сама.</p>
+        <div class="srv__price">от 10 000 ₽</div>
+      </div>
+      <div class="srv">
+        <div class="srv__num">05</div>
+        <h3>Интеграции</h3>
+        <p>Telegram, WhatsApp, Instagram, сайт, телефония — все заявки в одном месте.</p>
+        <div class="srv__price">от 8 000 ₽</div>
+      </div>
+      <div class="srv">
+        <div class="srv__num">06</div>
+        <h3>Обучение команды</h3>
+        <p>Инструкции, видеоуроки, сессия вопросов — ваши сотрудники уверенно работают в CRM.</p>
+        <div class="srv__price">от 7 000 ₽</div>
+      </div>
+      <div class="srv">
+        <div class="srv__num">07</div>
+        <h3>Аналитика и отчёты</h3>
+        <p>Настроим дашборд: конверсии, выручка, источники клиентов — всё в реальном времени.</p>
+        <div class="srv__price">от 6 000 ₽</div>
+      </div>
+      <div class="srv">
+        <div class="srv__num">08</div>
+        <h3>Под ключ</h3>
+        <p>Аудит + настройка + интеграции + обучение + поддержка 30 дней. Всё включено.</p>
+        <div class="srv__price">от 40 000 ₽</div>
+      </div>
+    </div>
+    <p class="services__note">* Точная стоимость определяется после разбора вашего кейса на бесплатной консультации</p>
+  </div>
+</section>
+
+<!-- ПРАЙС -->
+<section class="price section" id="price">
+  <div class="container">
+    <h2 class="section__title">Ориентировочные цены</h2>
+    <p class="section__sub">Итоговая стоимость рассчитывается индивидуально</p>
+    <div class="price__table">
+      <table>
+        <thead>
+          <tr><th>Услуга</th><th>Стоимость</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Бесплатная консультация (30 мин)</td><td class="green">Бесплатно</td></tr>
+          <tr><td>Аудит и карта процессов</td><td>от 5 000 ₽</td></tr>
+          <tr><td>Базовая настройка CRM (до 3 воронок)</td><td>от 15 000 ₽</td></tr>
+          <tr><td>Расширенная настройка (5+ воронок + автоматизация)</td><td>от 30 000 ₽</td></tr>
+          <tr><td>Интеграция мессенджеров (1 канал)</td><td>от 3 000 ₽</td></tr>
+          <tr><td>Интеграция телефонии</td><td>от 5 000 ₽</td></tr>
+          <tr><td>Обучение (до 5 человек)</td><td>от 7 000 ₽</td></tr>
+          <tr><td>Настройка аналитики и дашборда</td><td>от 6 000 ₽</td></tr>
+          <tr><td>CRM под ключ (малый бизнес)</td><td>от 40 000 ₽</td></tr>
+          <tr><td>Сопровождение (помесячно)</td><td>от 8 000 ₽/мес</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ПРОЦЕСС -->
+<section class="process section" id="process">
+  <div class="container">
+    <h2 class="section__title">Как проходит работа</h2>
+    <p class="section__sub">5 шагов от первого звонка до рабочей системы</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step__num">1</div>
+        <div class="step__body">
+          <h3>Бесплатная консультация</h3>
+          <p>Созваниваемся, разбираем ваш бизнес и боли. Оцениваю задачу и говорю что реально нужно.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step__num">2</div>
+        <div class="step__body">
+          <h3>Аудит и техзадание</h3>
+          <p>Изучаю процессы, фиксирую что есть сейчас и что должно быть. Составляем ТЗ и смету.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step__num">3</div>
+        <div class="step__body">
+          <h3>Настройка CRM</h3>
+          <p>Разворачиваю систему, настраиваю воронки, поля, автоматизации и интеграции.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step__num">4</div>
+        <div class="step__body">
+          <h3>Обучение</h3>
+          <p>Провожу обучение для вас и команды. Даю инструкции и отвечаю на вопросы.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step__num">5</div>
+        <div class="step__body">
+          <h3>Запуск и поддержка</h3>
+          <p>Запускаем. Первое время на связи — докрутим, если что-то пойдёт не так.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- КЕЙСЫ / ОТЗЫВЫ -->
+<section class="cases section" id="cases">
+  <div class="container">
+    <h2 class="section__title">Результаты клиентов</h2>
+    <p class="section__sub">Реальные цифры до и после внедрения CRM</p>
+    <div class="cases__grid">
+      <div class="object">
+        <div class="object__badge">Сфера красоты</div>
+        <h3>Салон красоты, 3 мастера</h3>
+        <p>Клиенты терялись в Директе и WhatsApp, мастера не знали расписание друг друга.</p>
+        <div class="object__results">
+          <div class="object__result"><span class="up">+40%</span> выручка за 2 месяца</div>
+          <div class="object__result"><span class="up">0</span> потерянных заявок</div>
+          <div class="object__result"><span class="up">amoCRM</span> + WhatsApp</div>
+        </div>
+      </div>
+      <div class="object">
+        <div class="object__badge">Образование</div>
+        <h3>Школа онлайн-курсов</h3>
+        <p>Продажи вели 5 менеджеров в разных таблицах. Без понимания конверсий и выручки по курсам.</p>
+        <div class="object__results">
+          <div class="object__result"><span class="up">×2.5</span> конверсия из заявки</div>
+          <div class="object__result"><span class="up">-3 ч</span> экономия в день</div>
+          <div class="object__result"><span class="up">Bitrix24</span> + Telegram</div>
+        </div>
+      </div>
+      <div class="object">
+        <div class="object__badge">Услуги B2B</div>
+        <h3>Клининговая компания</h3>
+        <p>Заявки приходили с 4 источников, менеджер вёл всё в голове. Повторные продажи — случайность.</p>
+        <div class="object__results">
+          <div class="object__result"><span class="up">+65%</span> повторных продаж</div>
+          <div class="object__result"><span class="up">100%</span> заявок в системе</div>
+          <div class="object__result"><span class="up">amoCRM</span> + авто-задачи</div>
+        </div>
+      </div>
+    </div>
+    <div class="reviews">
+      <h3 class="reviews__title">Отзывы</h3>
+      <div class="reviews__grid">
+        <div class="review">
+          <div class="review__rating">★★★★★</div>
+          <p>«Наконец-то вижу что происходит с каждым клиентом. Раньше всё держалось на памяти менеджера — теперь система сама напоминает и ставит задачи. Выручка выросла за первый же месяц.»</p>
+          <div class="review__author">— Анна, владелец студии депиляции</div>
+        </div>
+        <div class="review">
+          <div class="review__rating">★★★★★</div>
+          <p>«Думал, что настройка CRM — это долго и сложно. Уложились в 3 дня. Команда обучена, интеграции работают. Отдельное спасибо за поддержку после запуска.»</p>
+          <div class="review__author">— Максим, онлайн-школа</div>
+        </div>
+        <div class="review">
+          <div class="review__rating">★★★★★</div>
+          <p>«Переработали всю воронку под наш B2B. Теперь видим на каком этапе каждая сделка и сколько денег в pipeline. Продажи стали управляемыми.»</p>
+          <div class="review__author">— Елена, агентство услуг</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq section" id="faq">
+  <div class="container">
+    <h2 class="section__title">Частые вопросы</h2>
+    <div class="faq__list">
+      <details class="faq__item">
+        <summary>Какие CRM вы настраиваете?</summary>
+        <p>Работаю с amoCRM, Bitrix24, Planfix, RetailCRM и рядом других. На консультации подбираем то, что подходит именно вашему бизнесу и бюджету. Не навязываю конкретный продукт.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Сколько времени займёт внедрение?</summary>
+        <p>Базовая настройка — 2-5 дней. Сложные проекты с несколькими интеграциями и командой — до 2 недель. Точные сроки обсуждаем на созвоне после аудита.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Нужно ли покупать лицензию CRM отдельно?</summary>
+        <p>Да, лицензия оплачивается напрямую в CRM-сервис. Я помогу выбрать подходящий тариф и не переплатить. Стоимость моих услуг не включает лицензию.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Что если мои сотрудники не захотят работать в CRM?</summary>
+        <p>Это частая история. Провожу обучение так, чтобы система стала помощником, а не обузой. Даю простые инструкции и видеоуроки. В большинстве случаев команда принимает систему уже в первую неделю.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Работаете ли вы с маленькими командами (1-2 человека)?</summary>
+        <p>Да, и это частый случай. Для небольших команд настраиваю лёгкую систему без лишнего — только то, что реально используется и приносит пользу.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Есть ли поддержка после запуска?</summary>
+        <p>Да. После сдачи проекта я остаюсь на связи в Telegram. Первое время отвечаю на вопросы бесплатно. Для постоянной поддержки есть ежемесячный тариф от 8 000 ₽.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ФОРМА + КАРТА -->
+<section class="contact-section section" id="contacts">
+  <div class="container">
+    <h2 class="section__title">Обсудим ваш проект</h2>
+    <p class="section__sub">Первая консультация — бесплатно. Разберём ваш кейс и предложим решение.</p>
+    <div class="contact-wrap">
+      <div class="form-wrap">
+        <form id="leadForm" class="form" novalidate>
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="form__row">
+            <input class="form__input" type="text" name="name" placeholder="Ваше имя *" required>
+          </div>
+          <div class="form__row">
+            <input class="form__input" type="tel" name="phone" placeholder="Телефон или Telegram *" required>
+          </div>
+          <div class="form__row">
+            <select class="form__input form__select" name="crm_type">
+              <option value="" disabled selected>Какая CRM вас интересует?</option>
+              <option>amoCRM</option>
+              <option>Bitrix24</option>
+              <option>Planfix</option>
+              <option>Ещё не определился</option>
+              <option>Другая</option>
+            </select>
+          </div>
+          <div class="form__row">
+            <textarea class="form__input form__textarea" name="comment" placeholder="Коротко о бизнесе и задаче" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Получить консультацию</button>
+          <p class="form__note">Отвечу в Telegram в течение часа в рабочее время</p>
+        </form>
+      </div>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.93 6.77l-1.67 7.87c-.12.56-.46.7-.93.44l-2.57-1.89-1.24 1.19c-.14.14-.25.25-.51.25l.18-2.57 4.66-4.21c.2-.18-.04-.28-.31-.1L7.9 14.51l-2.5-.78c-.54-.17-.55-.54.12-.8l9.75-3.76c.45-.16.84.11.66.6z" fill="#2563EB"/></svg>
+          </div>
+          <div class="contact-card__body">
+            <div class="contact-card__label">Telegram</div>
+            <a href="https://t.me/Kasattma" target="_blank" class="contact-card__val">@Kasattma</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="16" rx="3" stroke="#2563EB" stroke-width="2"/><path d="M2 8l10 7 10-7" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <div class="contact-card__body">
+            <div class="contact-card__label">Работаю онлайн</div>
+            <div class="contact-card__val">С клиентами по всей России</div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#2563EB" stroke-width="2"/><path d="M12 7v5l3 3" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <div class="contact-card__body">
+            <div class="contact-card__label">Время ответа</div>
+            <div class="contact-card__val">В течение часа в рабочее время</div>
+          </div>
+        </div>
+        <div class="contact-card contact-card--cta">
+          <a href="https://t.me/Kasattma" target="_blank" class="btn btn--primary btn--full">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.93 6.77l-1.67 7.87c-.12.56-.46.7-.93.44l-2.57-1.89-1.24 1.19c-.14.14-.25.25-.51.25l.18-2.57 4.66-4.21c.2-.18-.04-.28-.31-.1L7.9 14.51l-2.5-.78c-.54-.17-.55-.54.12-.8l9.75-3.76c.45-.16.84.11.66.6z" fill="#fff"/></svg>
+            Написать в Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="logo">
+      <span class="logo__icon">
+        <svg width="22" height="22" viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="8" fill="#2563EB"/><rect x="6" y="7" width="16" height="2.5" rx="1.25" fill="#fff"/><rect x="6" y="12.75" width="11" height="2.5" rx="1.25" fill="#fff"/><rect x="6" y="18.5" width="8" height="2.5" rx="1.25" fill="#fff"/><circle cx="21" cy="19.75" r="4" fill="#60A5FA"/><path d="M19.5 19.75l1 1 2-2" stroke="#1e3a8a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <span class="logo__text">CRM<span class="logo__suffix">эксперт</span></span>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> @Kasattma · Настройка и внедрение CRM-систем</p>
+    <a href="https://t.me/Kasattma" target="_blank" class="footer__tg">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.93 6.77l-1.67 7.87c-.12.56-.46.7-.93.44l-2.57-1.89-1.24 1.19c-.14.14-.25.25-.51.25l.18-2.57 4.66-4.21c.2-.18-.04-.28-.31-.1L7.9 14.51l-2.5-.78c-.54-.17-.55-.54.12-.8l9.75-3.76c.45-.16.84.11.66.6z" fill="#2563EB"/></svg>
+      @Kasattma
+    </a>
+  </div>
+</footer>
+
+<!-- FAB -->
+<a href="https://t.me/Kasattma" target="_blank" class="fab" aria-label="Написать в Telegram">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.93 6.77l-1.67 7.87c-.12.56-.46.7-.93.44l-2.57-1.89-1.24 1.19c-.14.14-.25.25-.51.25l.18-2.57 4.66-4.21c.2-.18-.04-.28-.31-.1L7.9 14.51l-2.5-.78c-.54-.17-.55-.54.12-.8l9.75-3.76c.45-.16.84.11.66.6z" fill="#fff"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
